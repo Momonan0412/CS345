@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avril\\Downloads\\N Queens\\N Queens\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFC6948-62ED-4923-BACB-5AAA88D87EEF}|ACT4\\ACT4.csproj|c:\\users\\avril\\downloads\\n queens\\n queens\\act4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFC6948-62ED-4923-BACB-5AAA88D87EEF}|ACT4\\ACT4.csproj|solutionrelative:act4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFC6948-62ED-4923-BACB-5AAA88D87EEF}|ACT4\\ACT4.csproj|c:\\users\\avril\\downloads\\n queens\\n queens\\act4\\sixstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFC6948-62ED-4923-BACB-5AAA88D87EEF}|ACT4\\ACT4.csproj|solutionrelative:act4\\sixstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SixState.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\Downloads\\N Queens\\N Queens\\ACT4\\SixState.cs",
+              "RelativeDocumentMoniker": "ACT4\\SixState.cs",
+              "ToolTip": "C:\\Users\\avril\\Downloads\\N Queens\\N Queens\\ACT4\\SixState.cs",
+              "RelativeToolTip": "ACT4\\SixState.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T22:54:38.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\Downloads\\N Queens\\N Queens\\ACT4\\Form1.cs",
+              "RelativeDocumentMoniker": "ACT4\\Form1.cs",
+              "ToolTip": "C:\\Users\\avril\\Downloads\\N Queens\\N Queens\\ACT4\\Form1.cs",
+              "RelativeToolTip": "ACT4\\Form1.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwKYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T21:46:15.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
