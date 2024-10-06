@@ -35,3 +35,13 @@ C:\Users\avril\Downloads\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.csproj.Genera
 C:\Users\avril\Downloads\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.csproj.CoreCompileInputs.cache
 C:\Users\avril\Downloads\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.exe
 C:\Users\avril\Downloads\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.pdb
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\bin\Debug\ACT4.exe.config
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\bin\Debug\ACT4.exe
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\bin\Debug\ACT4.pdb
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.csproj.AssemblyReference.cache
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.Form1.resources
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.Properties.Resources.resources
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.csproj.GenerateResource.cache
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.csproj.CoreCompileInputs.cache
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.exe
+C:\Users\avril\OneDrive\Documents\CS345\N Queens\N Queens\ACT4\obj\x86\Debug\ACT4.pdb
