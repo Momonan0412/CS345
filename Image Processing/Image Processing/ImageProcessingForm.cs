@@ -10,6 +10,7 @@ using AForge.Video.DirectShow;
 using Microsoft.VisualBasic;
 using System.Diagnostics.Metrics;
 using System.Reflection;
+using ChrisAliacConvolutionFilter;
 namespace Image_Processing
 {
     public partial class ImageProcessingForm : Form
@@ -310,6 +311,7 @@ namespace Image_Processing
             rotationTrackBar.Enabled = true;
             equalizationTrackBar.Enabled = true;
             brightnessTrackBar.Enabled = true;
+            dIPPartTwoForImageToolStripMenuItem.Enabled = true;
             useWebcamButton.Enabled = true;
             _loadedImage = new Bitmap(openFileDialogForImageDIP.FileName);
             sourcePictureBox.Image = _loadedImage;
@@ -466,7 +468,7 @@ namespace Image_Processing
         }
         private unsafe void equalizationHelper(byte* newProcessedBitPtr, byte* sourceBitPtr, int newStride, int[] yMap, int width, int height)
         {
-            for(int y = 0; y < height; y ++)
+            for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < width; x++)
                 {
@@ -705,12 +707,15 @@ namespace Image_Processing
                     );
 
             int threshold = 50;
-            unsafe {
+            unsafe
+            {
                 byte* loadedByte = (byte*)loadedData.Scan0;
                 byte* processedByte = (byte*)processedData.Scan0;
                 byte* resultByte = (byte*)bitmapData.Scan0;
-                for(int x = 0; x < width; x ++) {
-                    for (int y = 0; y < height; y++) { 
+                for (int x = 0; x < width; x++)
+                {
+                    for (int y = 0; y < height; y++)
+                    {
                         int index = y * stride + x * 3;
                         byte loadBlue = loadedByte[index];
                         byte loadGreen = loadedByte[index + 1];
@@ -722,11 +727,14 @@ namespace Image_Processing
                         byte grayValue = (byte)((loadRed + loadGreen + loadBlue) / 3);
 
                         int subtract = (Math.Abs(grayValue - loadGreen));
-                        if (subtract > threshold) {
+                        if (subtract > threshold)
+                        {
                             resultByte[index] = processedByte[index];
                             resultByte[index + 1] = processedByte[index + 1];
                             resultByte[index + 2] = processedByte[index + 2];
-                        } else {
+                        }
+                        else
+                        {
                             resultByte[index] = loadedByte[index];
                             resultByte[index + 1] = loadedByte[index + 1];
                             resultByte[index + 2] = loadedByte[index + 2];
@@ -742,7 +750,7 @@ namespace Image_Processing
                 Text = "New Form with PictureBox",
                 Size = new Size(width, height),
                 StartPosition = FormStartPosition.CenterScreen
-            }; 
+            };
             PictureBox pictureBox = new PictureBox
             {
                 Size = new Size(width, height),  // Set the PictureBox size
@@ -782,6 +790,84 @@ namespace Image_Processing
             useWebcamButton.Enabled = false;
             _processedImage = new Bitmap(openFileDialogPicTwo.FileName);
             processedPictureBox.Image = _processedImage;
+        }
+
+        private void openFileDialog1_FileOk_1(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void dIPPartTwoForImageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void smoothToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.Smooth(_loadedImage, 1);
+            processedPictureBox.Image = _loadedImage;
+        }
+
+        private void gaussianBlurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.GaussianBlur(_loadedImage, 1);
+            processedPictureBox.Image = _loadedImage;
+        }
+
+        private void sharpenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.Sharpen(_loadedImage, 1);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void meanRemovalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.MeanRemoval(_loadedImage, 1);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossLaplacian(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossHorzVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossHorzVertical(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossAllDirectionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossAllDirections(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossLossyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossLossy(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossHorizontal(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
+        }
+
+        private void embossVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChrisAliacConvolutionFilter.BitmapFilter.EmbossVertical(_loadedImage);
+            processedPictureBox.Image = _loadedImage;
+
         }
         // The rotation matrix is given by the following form:
         // | cos(theta) -sin(theta) |
