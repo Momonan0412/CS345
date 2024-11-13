@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIP Coin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfc06b845b61139eba7a7babdd291a208f278407")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e84639972fc2a9ddef9d33bd01c0daca98b5d64")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIP Coin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIP Coin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

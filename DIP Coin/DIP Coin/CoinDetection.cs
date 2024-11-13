@@ -53,8 +53,8 @@ namespace DIP_Coin
         }
         private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            //Bitmap bitmapImage = _loadedImage.ToBitmap();
-            //bitmapImage.Save(saveFileDialogForImageDIP.FileName, ImageFormat.Png);
+            Bitmap bitmapImage = _loadedImage.ToBitmap();
+            bitmapImage.Save(saveFileDialogForImageDIP.FileName, ImageFormat.Png);
         }
         private void loadImageToolStripMenuItem_Click(object sender, EventArgs e)
         {

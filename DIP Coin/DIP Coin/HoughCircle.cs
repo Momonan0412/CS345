@@ -61,15 +61,58 @@ namespace DIP_Coin
 
                     // Print the radius of the circle
                     // Optionally, display the diameter as well
+                    //double diameter = 2 * circle.Radius;
+                    //Console.WriteLine($"Diameter: {diameter}");
+                    //diameters.Add(diameter);
+
+                    // Calculate the diameter of the circle
                     double diameter = 2 * circle.Radius;
                     Console.WriteLine($"Diameter: {diameter}");
                     diameters.Add(diameter);
+
+                    // Display the diameter as text on the image
+                    string diameterText = $"D: {diameter:F2}"; // Format to two decimal places
+                    Point textPosition = new Point((int)circle.Center.X + 10, (int)circle.Center.Y); // Positioning text a little to the right of the center
+
+                    // Put the diameter text on the image
+                    CvInvoke.PutText(
+                        _loadedImage,
+                        diameterText,
+                        textPosition,
+                        Emgu.CV.CvEnum.FontFace.HersheySimplex,
+                        0.5, // Font size
+                        new MCvScalar(0, 0, 0), // Blue color for the text
+                        1); // Thickness of the text
+
+
+                    // Create a mask for the circle
+                    Mat mask = new Mat(_loadedImage.Size, Emgu.CV.CvEnum.DepthType.Cv8U, 1); // Single-channel mask
+                    mask.SetTo(new MCvScalar(0)); // Initialize mask to black
+
+                    // Draw the filled circle in the mask
+                    CvInvoke.Circle(mask, Point.Round(circle.Center), (int)circle.Radius, new MCvScalar(255), -1); // White filled circle
+
+                    // Count the number of white pixels (pixels inside the circle)
+                    int pixelCount = CvInvoke.CountNonZero(mask);
+                    Console.WriteLine($"Number of pixels inside the circle: {pixelCount}");
+
+                    // Optionally, display the pixel count on the image as well
+                    string pixelCountText = $"Pixels: {pixelCount}";
+                    Point pixelTextPosition = new Point((int)circle.Center.X + 10, (int)circle.Center.Y + 20); // Position slightly below the diameter text
+                    CvInvoke.PutText(
+                        _loadedImage,
+                        pixelCountText,
+                        pixelTextPosition,
+                        Emgu.CV.CvEnum.FontFace.HersheySimplex,
+                        0.5,
+                        new MCvScalar(0, 0, 0), // Yellow color for the text
+                        1);
                 }
 
             }
-            string diametersString = string.Join(Environment.NewLine, diameters.Select(d => d.ToString()));
+            //string diametersString = string.Join(Environment.NewLine, diameters.Select(d => d.ToString()));
 
-            MessageBox.Show(diametersString.ToString());
+            //MessageBox.Show(diametersString.ToString());
             return _loadedImage.ToBitmap();
         }
     }
