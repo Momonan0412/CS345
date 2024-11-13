@@ -1,0 +1,105 @@
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.exe
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.deps.json
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.runtimeconfig.json
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.pdb
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.GenerateResource.cache
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.AssemblyInfoInputs.cache
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.AssemblyInfo.cs
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.CoreCompileInputs.cache
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\refint\DIP Coin.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.pdb
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.genruntimeconfig.cache
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\ref\DIP Coin.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP_Coin.CoinDetection.resources
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\Emgu.CV.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\Emgu.CV.Bitmap.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\OpenCvSharp.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.AssemblyReference.cache
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.Up2Date
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\cvextern.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\cvextern.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\libusb-1.0.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg490_64.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\cvextern.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\libusb-1.0.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg490.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\concrt140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_1.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_2.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\vcruntime140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\vcruntime140_1.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\concrt140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_1.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_2.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\concrt140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_1.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_2.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\source\repos\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.exe
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.deps.json
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.runtimeconfig.json
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\DIP Coin.pdb
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\Emgu.CV.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\Emgu.CV.Bitmap.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\OpenCvSharp.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\cvextern.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\cvextern.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\libusb-1.0.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg490_64.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\cvextern.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\libusb-1.0.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg490.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\concrt140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_1.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_2.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\vcruntime140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-arm64\native\vcruntime140_1.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\concrt140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_1.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_2.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\concrt140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_1.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_2.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\bin\Debug\net8.0-windows\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.AssemblyReference.cache
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP_Coin.CoinDetection.resources
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.GenerateResource.cache
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.AssemblyInfoInputs.cache
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.AssemblyInfo.cs
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.CoreCompileInputs.cache
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.sourcelink.json
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.csproj.Up2Date
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\refint\DIP Coin.dll
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.pdb
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\DIP Coin.genruntimeconfig.cache
+C:\Users\avril\OneDrive\Documents\CS345\DIP Coin\DIP Coin\obj\Debug\net8.0-windows\ref\DIP Coin.dll
