@@ -55,6 +55,8 @@
             embossLossyToolStripMenuItem = new ToolStripMenuItem();
             embossHorizontalToolStripMenuItem = new ToolStripMenuItem();
             embossVerticalToolStripMenuItem = new ToolStripMenuItem();
+            prefinalDIPToolStripMenuItem = new ToolStripMenuItem();
+            applyToolStripMenuItem = new ToolStripMenuItem();
             openFileDialogForImageDIP = new OpenFileDialog();
             saveFileDialogForImageDIP = new SaveFileDialog();
             sourcePictureBox = new PictureBox();
@@ -74,6 +76,7 @@
             openFileDialogPicTwo = new OpenFileDialog();
             buttonSubtract = new Button();
             openFileDialogForImageTwoDIP = new OpenFileDialog();
+            openFileDialogPreFinalDIP = new OpenFileDialog();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)sourcePictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)processedPictureBox).BeginInit();
@@ -85,7 +88,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { openToolStripMenuItem, dIPToolStripMenuItem, addImageForPictureBoxOneToolStripMenuItem, addImageForPictureBoxTwoToolStripMenuItem, dIPPartTwoForImageToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { openToolStripMenuItem, dIPToolStripMenuItem, addImageForPictureBoxOneToolStripMenuItem, addImageForPictureBoxTwoToolStripMenuItem, dIPPartTwoForImageToolStripMenuItem, prefinalDIPToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1124, 32);
@@ -215,72 +218,87 @@
             // smoothToolStripMenuItem
             // 
             smoothToolStripMenuItem.Name = "smoothToolStripMenuItem";
-            smoothToolStripMenuItem.Size = new Size(224, 28);
+            smoothToolStripMenuItem.Size = new Size(214, 28);
             smoothToolStripMenuItem.Text = "Smooth";
             smoothToolStripMenuItem.Click += smoothToolStripMenuItem_Click;
             // 
             // gaussianBlurToolStripMenuItem
             // 
             gaussianBlurToolStripMenuItem.Name = "gaussianBlurToolStripMenuItem";
-            gaussianBlurToolStripMenuItem.Size = new Size(224, 28);
+            gaussianBlurToolStripMenuItem.Size = new Size(214, 28);
             gaussianBlurToolStripMenuItem.Text = "Gaussian Blur ";
             gaussianBlurToolStripMenuItem.Click += gaussianBlurToolStripMenuItem_Click;
             // 
             // sharpenToolStripMenuItem
             // 
             sharpenToolStripMenuItem.Name = "sharpenToolStripMenuItem";
-            sharpenToolStripMenuItem.Size = new Size(224, 28);
+            sharpenToolStripMenuItem.Size = new Size(214, 28);
             sharpenToolStripMenuItem.Text = "Sharpen";
             sharpenToolStripMenuItem.Click += sharpenToolStripMenuItem_Click;
             // 
             // meanRemovalToolStripMenuItem
             // 
             meanRemovalToolStripMenuItem.Name = "meanRemovalToolStripMenuItem";
-            meanRemovalToolStripMenuItem.Size = new Size(224, 28);
+            meanRemovalToolStripMenuItem.Size = new Size(214, 28);
             meanRemovalToolStripMenuItem.Text = "Mean Removal ";
             meanRemovalToolStripMenuItem.Click += meanRemovalToolStripMenuItem_Click;
             // 
             // embossingToolStripMenuItem
             // 
             embossingToolStripMenuItem.Name = "embossingToolStripMenuItem";
-            embossingToolStripMenuItem.Size = new Size(224, 28);
+            embossingToolStripMenuItem.Size = new Size(214, 28);
             embossingToolStripMenuItem.Text = "Emboss Laplascian";
             embossingToolStripMenuItem.Click += embossingToolStripMenuItem_Click;
             // 
             // embossHorzVerticalToolStripMenuItem
             // 
             embossHorzVerticalToolStripMenuItem.Name = "embossHorzVerticalToolStripMenuItem";
-            embossHorzVerticalToolStripMenuItem.Size = new Size(224, 28);
+            embossHorzVerticalToolStripMenuItem.Size = new Size(214, 28);
             embossHorzVerticalToolStripMenuItem.Text = "EmbossHorzVertical";
             embossHorzVerticalToolStripMenuItem.Click += embossHorzVerticalToolStripMenuItem_Click;
             // 
             // embossAllDirectionsToolStripMenuItem
             // 
             embossAllDirectionsToolStripMenuItem.Name = "embossAllDirectionsToolStripMenuItem";
-            embossAllDirectionsToolStripMenuItem.Size = new Size(224, 28);
+            embossAllDirectionsToolStripMenuItem.Size = new Size(214, 28);
             embossAllDirectionsToolStripMenuItem.Text = "EmbossAllDirections";
             embossAllDirectionsToolStripMenuItem.Click += embossAllDirectionsToolStripMenuItem_Click;
             // 
             // embossLossyToolStripMenuItem
             // 
             embossLossyToolStripMenuItem.Name = "embossLossyToolStripMenuItem";
-            embossLossyToolStripMenuItem.Size = new Size(224, 28);
+            embossLossyToolStripMenuItem.Size = new Size(214, 28);
             embossLossyToolStripMenuItem.Text = "EmbossLossy";
             embossLossyToolStripMenuItem.Click += embossLossyToolStripMenuItem_Click;
             // 
             // embossHorizontalToolStripMenuItem
             // 
             embossHorizontalToolStripMenuItem.Name = "embossHorizontalToolStripMenuItem";
-            embossHorizontalToolStripMenuItem.Size = new Size(224, 28);
+            embossHorizontalToolStripMenuItem.Size = new Size(214, 28);
             embossHorizontalToolStripMenuItem.Text = "EmbossHorizontal";
             embossHorizontalToolStripMenuItem.Click += embossHorizontalToolStripMenuItem_Click;
             // 
             // embossVerticalToolStripMenuItem
             // 
             embossVerticalToolStripMenuItem.Name = "embossVerticalToolStripMenuItem";
-            embossVerticalToolStripMenuItem.Size = new Size(224, 28);
+            embossVerticalToolStripMenuItem.Size = new Size(214, 28);
             embossVerticalToolStripMenuItem.Text = "EmbossVertical";
             embossVerticalToolStripMenuItem.Click += embossVerticalToolStripMenuItem_Click;
+            // 
+            // prefinalDIPToolStripMenuItem
+            // 
+            prefinalDIPToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { applyToolStripMenuItem });
+            prefinalDIPToolStripMenuItem.Font = new Font("Agency FB", 12F, FontStyle.Bold | FontStyle.Italic);
+            prefinalDIPToolStripMenuItem.Name = "prefinalDIPToolStripMenuItem";
+            prefinalDIPToolStripMenuItem.Size = new Size(95, 28);
+            prefinalDIPToolStripMenuItem.Text = "Prefinal DIP";
+            // 
+            // applyToolStripMenuItem
+            // 
+            applyToolStripMenuItem.Name = "applyToolStripMenuItem";
+            applyToolStripMenuItem.Size = new Size(224, 28);
+            applyToolStripMenuItem.Text = "Apply";
+            applyToolStripMenuItem.Click += applyToolStripMenuItem_Click;
             // 
             // openFileDialogForImageDIP
             // 
@@ -456,6 +474,11 @@
             // 
             openFileDialogForImageTwoDIP.FileOk += openFileDialog1_FileOk_1;
             // 
+            // openFileDialogPreFinalDIP
+            // 
+            openFileDialogPreFinalDIP.FileName = "openFileDialogPreFinalDIP";
+            openFileDialogPreFinalDIP.FileOk += openFileDialog1_FileOk_2;
+            // 
             // ImageProcessingForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -538,5 +561,8 @@
         private ToolStripMenuItem embossLossyToolStripMenuItem;
         private ToolStripMenuItem embossHorizontalToolStripMenuItem;
         private ToolStripMenuItem embossVerticalToolStripMenuItem;
+        private ToolStripMenuItem prefinalDIPToolStripMenuItem;
+        private ToolStripMenuItem applyToolStripMenuItem;
+        private OpenFileDialog openFileDialogPreFinalDIP;
     }
 }

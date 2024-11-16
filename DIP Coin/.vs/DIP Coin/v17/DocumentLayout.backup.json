@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|c:\\users\\avril\\onedrive\\documents\\cs345\\dip coin\\dip coin\\houghcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|solutionrelative:dip coin\\houghcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|c:\\users\\avril\\onedrive\\documents\\cs345\\dip coin\\dip coin\\algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|solutionrelative:dip coin\\algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|c:\\users\\avril\\onedrive\\documents\\cs345\\dip coin\\dip coin\\coindetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|solutionrelative:dip coin\\coindetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\dip coin\\coindetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|solutionrelative:dip coin\\coindetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|c:\\users\\avril\\onedrive\\documents\\cs345\\dip coin\\dip coin\\houghcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F78AB7-2CEC-458E-909D-80B86A3D2169}|DIP Coin\\DIP Coin.csproj|solutionrelative:dip coin\\houghcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HoughCircle.cs",
               "DocumentMoniker": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\HoughCircle.cs",
               "RelativeDocumentMoniker": "DIP Coin\\HoughCircle.cs",
               "ToolTip": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\HoughCircle.cs",
               "RelativeToolTip": "DIP Coin\\HoughCircle.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwGsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:17:49.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CoinDetection.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\CoinDetection.cs",
-              "RelativeDocumentMoniker": "DIP Coin\\CoinDetection.cs",
-              "ToolTip": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\CoinDetection.cs [Design]",
-              "RelativeToolTip": "DIP Coin\\CoinDetection.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Algorithm.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\Algorithm.cs",
+              "RelativeDocumentMoniker": "DIP Coin\\Algorithm.cs",
+              "ToolTip": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\Algorithm.cs",
+              "RelativeToolTip": "DIP Coin\\Algorithm.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:14:15.787Z"
+              "WhenOpened": "2024-11-16T07:33:55.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,9 +58,10 @@
               "RelativeDocumentMoniker": "DIP Coin\\CoinDetection.cs",
               "ToolTip": "C:\\Users\\avril\\OneDrive\\Documents\\CS345\\DIP Coin\\DIP Coin\\CoinDetection.cs",
               "RelativeToolTip": "DIP Coin\\CoinDetection.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAADgAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwC0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:19:09.615Z"
+              "WhenOpened": "2024-11-12T13:19:09.615Z",
+              "EditorCaption": ""
             }
           ]
         }

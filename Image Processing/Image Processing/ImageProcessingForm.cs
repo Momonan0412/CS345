@@ -869,6 +869,111 @@ namespace Image_Processing
             processedPictureBox.Image = _loadedImage;
 
         }
+
+        private void applyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _processedImage = new Bitmap(_loadedImage);
+            int halfWidth = _processedImage.Width / 2;
+            int halfHeight = _processedImage.Height / 2;
+            Color pixel;
+            for (int y = 0; y < _loadedImage.Height; y++) {
+                for (int x = 0; x < _loadedImage.Width; x++) {
+                    // First Quadrant
+                    if (x > halfWidth && y < halfHeight)
+                    {
+                        pixel = _loadedImage.GetPixel(x, y);
+                        _processedImage.SetPixel(x, y, Color.FromArgb(255 - pixel.R, 255 - pixel.G, 255 - pixel.B));
+                    }
+                    // Second Quadrant
+                    else if (x < halfWidth && y < halfHeight)
+                    {
+                        pixel = _loadedImage.GetPixel(x, y);
+                        double color = pixel.R * .114 + pixel.G * .587 + pixel.B * .299;
+                        _processedImage.SetPixel(x, y, Color.FromArgb((int)color, (int)color, (int)color));
+                    }
+                    else if (x < halfWidth && y > halfHeight)
+                    {
+                        pixel = _loadedImage.GetPixel(x, y);
+                        int outputRed = (int)(pixel.R * .393 + pixel.G * .769 + pixel.B * .189);
+                        int outputGreen = (int)(pixel.R * .349 + pixel.G * .686 + pixel.B * .168);
+                        int outputBlue = (int)(pixel.R * .272 + pixel.G * .534 + pixel.B * .131);
+                        _processedImage.SetPixel(x, y, Color.FromArgb(Math.Min(outputRed,255), Math.Min(outputGreen, 255),Math.Min(outputBlue, 255)));
+                    }
+                }
+            }
+            {
+            for (int x = 0; x < _loadedImage.Width; x++)
+                for (int y = 0; y < _loadedImage.Height; y++)
+                {
+                    if (x > halfWidth && y > halfHeight)
+                    {
+                        pixel = _loadedImage.GetPixel(x, _loadedImage.Height - 1 - (y - halfHeight));
+                        _processedImage.SetPixel(x, y, pixel);
+                    }
+                }
+            }
+            //_processedImage = new Bitmap(_loadedImage.Width, _loadedImage.Height);
+            //Rectangle rectForImageOne = new Rectangle(0, 0, _processedImage.Width, _processedImage.Height);
+            //BitmapData bitmapDataOne = _processedImage.LockBits(rectForImageOne, ImageLockMode.WriteOnly, PixelFormat.Format24bppRgb);
+
+            //Rectangle rectForImageTwo = new Rectangle(0, 0, _loadedImage.Width, _loadedImage.Height);
+            //BitmapData bitmapDataTwo = _loadedImage.LockBits(rectForImageTwo, ImageLockMode.WriteOnly, PixelFormat.Format24bppRgb);
+
+
+            //int imageWidth = bitmapDataOne.Width;
+            //int imageHeight = bitmapDataOne.Height;
+            //int stride = bitmapDataOne.Stride;
+            //unsafe {
+            //    int halfOfHeight = imageHeight / 2;
+            //    int halfOfWidth = imageWidth / 2;
+
+            //    byte* ptrOne = (byte*)bitmapDataOne.Scan0;
+            //    byte* ptrTwo = (byte*)bitmapDataTwo.Scan0;
+
+            //    int addedHeight = imageHeight - halfOfHeight;
+
+            //    Parallel.For(0, imageHeight, y => {
+            //        for (int x = 0; x < imageWidth; x++) { 
+            //            int index = y * stride + x * 3;
+            //            if (x > halfOfWidth && y > halfOfHeight) // Vertical Mirror
+            //            {
+            //                int mirrorIndex = (imageHeight - 1 - (y - halfOfHeight)) * stride + x * 3;
+            //                ptrOne[index] = ptrTwo[mirrorIndex];
+            //                ptrOne[index + 1] = ptrTwo[mirrorIndex + 1];
+            //                ptrOne[index + 2] = ptrTwo[mirrorIndex + 2];
+            //            }
+            //            else if (x < halfOfWidth && y < halfOfHeight) // Inversion
+            //            {
+            //                ptrOne[index] = (byte)Math.Max((255 - ptrTwo[index]), 0);
+            //                ptrOne[index + 1] = (byte)Math.Max((255 - ptrTwo[index + 1]), 0);
+            //                ptrOne[index + 2] = (byte)Math.Max((255 - ptrTwo[index + 2]), 0);
+            //            }
+            //            else if (x > halfOfWidth && y < halfOfHeight) // Greyscale
+            //            {
+            //                byte grey = (byte)((ptrTwo[index] + ptrTwo[index + 1] + ptrTwo[index + 2]) / 3);
+            //                ptrOne[index] = grey;
+            //                ptrOne[index + 1] = grey;
+            //                ptrOne[index + 2] = grey;
+            //            }
+            //            else if (x < halfOfWidth && y > halfOfHeight) // Pixel Copy
+            //            {
+            //                ptrOne[index] = ptrTwo[index];
+            //                ptrOne[index + 1] = ptrTwo[index + 1];
+            //                ptrOne[index + 2] = ptrTwo[index + 2];
+            //            }
+            //        }
+            //    });
+            //}
+            //_processedImage.UnlockBits(bitmapDataOne);
+            //_loadedImage.UnlockBits(bitmapDataTwo);
+            this.processedPictureBox.Image = _processedImage;
+        }
+
+        private void openFileDialog1_FileOk_2(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
         // The rotation matrix is given by the following form:
         // | cos(theta) -sin(theta) |
         // | sin(theta)  cos(theta)  |

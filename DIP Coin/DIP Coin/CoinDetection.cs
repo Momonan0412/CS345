@@ -36,9 +36,14 @@ namespace DIP_Coin
                     {
                         MessageBox.Show("Image loaded successfully.");
                         HoughCircle houghCircle = new HoughCircle(_loadedImage);
-                        //Bitmap newImage = _loadedImage.ToBitmap();
-                        //ChrisAliacConvolutionFilter.BitmapFilter.GrayScale(newImage);
-                        pictureBoxLoadedImage.Image = houghCircle.DetectCircles();
+                        Bitmap newImage = _loadedImage.ToBitmap();
+                        ChrisAliacConvolutionFilter.BitmapFilter.GrayScale(newImage);
+                        ChrisAliacConvolutionFilter.BitmapFilter.GaussianBlur(newImage, 10);
+                        ChrisAliacConvolutionFilter.BitmapFilter.Invert(newImage);
+                        //pictureBoxLoadedImage.Image = houghCircle.DetectCircles();
+                        newImage = Algorithm.breadthFirstSearchAlgorithm(newImage);
+                        _loadedImage = newImage.ToMat();
+                        pictureBoxLoadedImage.Image = newImage;
                     }
                 }
                 catch (Exception ex)
@@ -63,7 +68,6 @@ namespace DIP_Coin
         private void saveImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveFileDialogForImageDIP.ShowDialog();
-
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -72,7 +76,6 @@ namespace DIP_Coin
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

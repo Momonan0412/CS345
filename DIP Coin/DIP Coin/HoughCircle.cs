@@ -18,7 +18,7 @@ namespace DIP_Coin
     {   
         Mat _loadedImage;
         Mat _grayImage;
-        List<double> diameters = new List<double>();
+        List<string> diameters = new List<string>();
         public HoughCircle(Mat _loadedImage)
         {
             this._loadedImage = _loadedImage;
@@ -26,16 +26,17 @@ namespace DIP_Coin
         }
         public Bitmap DetectCircles() {
             CvInvoke.CvtColor(_loadedImage, _grayImage, ColorConversion.Bgr2Gray);
+            CvInvoke.EqualizeHist(_grayImage, _grayImage);
             CvInvoke.GaussianBlur(_grayImage, _grayImage, new Size(9, 9), 2, 2);
 
 
             // Prepare parameters for Hough Circle Transform
             double dp = 1; // The inverse ratio of the accumulator resolution to the image resolution
-            double minDist = _grayImage.Rows / 32; // Minimum distance between detected centers
+            double minDist = _grayImage.Rows / 18; // Minimum distance between detected centers
             double param1 = 120; // Higher threshold for the Canny edge detector
             double param2 = 30; // Accumulator threshold for the circle centers
-            int minRadius = 5; // Minimum radius of the circle to detect
-            int maxRadius = 100; // Maximum radius of the circle to detect
+            int minRadius = 15; // Minimum radius of the circle to detect
+            int maxRadius = 80; // Maximum radius of the circle to detect
 
             // Detect circles using Hough Circle Transform
             CircleF[] circles = CvInvoke.HoughCircles(
@@ -68,7 +69,7 @@ namespace DIP_Coin
                     // Calculate the diameter of the circle
                     double diameter = 2 * circle.Radius;
                     Console.WriteLine($"Diameter: {diameter}");
-                    diameters.Add(diameter);
+                    //diameters.Add(diameter);
 
                     // Display the diameter as text on the image
                     string diameterText = $"D: {diameter:F2}"; // Format to two decimal places
@@ -99,6 +100,7 @@ namespace DIP_Coin
                     // Optionally, display the pixel count on the image as well
                     string pixelCountText = $"Pixels: {pixelCount}";
                     Point pixelTextPosition = new Point((int)circle.Center.X + 10, (int)circle.Center.Y + 20); // Position slightly below the diameter text
+                    diameters.Add(pixelCountText);
                     CvInvoke.PutText(
                         _loadedImage,
                         pixelCountText,
@@ -110,9 +112,9 @@ namespace DIP_Coin
                 }
 
             }
-            //string diametersString = string.Join(Environment.NewLine, diameters.Select(d => d.ToString()));
+            string diametersString = string.Join(Environment.NewLine, diameters.Select(d => d.ToString()));
 
-            //MessageBox.Show(diametersString.ToString());
+            MessageBox.Show(diametersString.ToString());
             return _loadedImage.ToBitmap();
         }
     }
