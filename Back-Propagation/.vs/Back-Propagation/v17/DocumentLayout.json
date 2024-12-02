@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|c:\\users\\avril\\source\\repos\\back-propagation\\back-propagation\\back-propagation-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\back-propagation-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|C:\\Users\\avril\\source\\repos\\Back-Propagation\\back-propagation\\back-propagation-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\back-propagation-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|c:\\users\\avril\\source\\repos\\back-propagation\\back-propagation\\backneural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\backneural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|c:\\users\\avril\\source\\repos\\back-propagation\\back-propagation\\inputn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\inputn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|c:\\users\\avril\\source\\repos\\back-propagation\\back-propagation\\hiddenn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\hiddenn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|c:\\users\\avril\\source\\repos\\back-propagation\\back-propagation\\ouputn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6F4CE-DFA0-47B5-8390-7DD103F8CA78}|Back-Propagation\\Back-Propagation.csproj|solutionrelative:back-propagation\\ouputn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Back-Propagation-Form.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\Back-Propagation-Form.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\Back-Propagation-Form.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\Back-Propagation-Form.cs",
+              "RelativeToolTip": "Back-Propagation\\Back-Propagation-Form.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:36:18.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Back-Propagation-Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\Back-Propagation-Form.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\Back-Propagation-Form.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\Back-Propagation-Form.cs [Design]",
+              "RelativeToolTip": "Back-Propagation\\Back-Propagation-Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:32:06.371Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputN.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\InputN.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\InputN.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\InputN.cs",
+              "RelativeToolTip": "Back-Propagation\\InputN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:32:43.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BackNeural.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\BackNeural.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\BackNeural.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\BackNeural.cs",
+              "RelativeToolTip": "Back-Propagation\\BackNeural.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:34:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HiddenN.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\HiddenN.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\HiddenN.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\HiddenN.cs",
+              "RelativeToolTip": "Back-Propagation\\HiddenN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:32:40.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OuputN.cs",
+              "DocumentMoniker": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\OuputN.cs",
+              "RelativeDocumentMoniker": "Back-Propagation\\OuputN.cs",
+              "ToolTip": "C:\\Users\\avril\\source\\repos\\Back-Propagation\\Back-Propagation\\OuputN.cs",
+              "RelativeToolTip": "Back-Propagation\\OuputN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:32:43.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

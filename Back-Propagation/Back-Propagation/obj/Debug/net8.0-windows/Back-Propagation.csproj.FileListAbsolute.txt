@@ -1,0 +1,16 @@
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\bin\Debug\net8.0-windows\Back-Propagation.exe
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\bin\Debug\net8.0-windows\Back-Propagation.deps.json
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\bin\Debug\net8.0-windows\Back-Propagation.runtimeconfig.json
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\bin\Debug\net8.0-windows\Back-Propagation.dll
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\bin\Debug\net8.0-windows\Back-Propagation.pdb
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back_Propagation.Form1.resources
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.csproj.GenerateResource.cache
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.AssemblyInfoInputs.cache
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.AssemblyInfo.cs
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.csproj.CoreCompileInputs.cache
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.dll
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\refint\Back-Propagation.dll
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.pdb
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\Back-Propagation.genruntimeconfig.cache
+C:\Users\avril\source\repos\Back-Propagation\Back-Propagation\obj\Debug\net8.0-windows\ref\Back-Propagation.dll
