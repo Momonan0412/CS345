@@ -1,1 +1,1 @@
-
+Custom algorithm in C# for detecting and counting coins using BFS, with Emgu.CV used only for verification; core logic is in [Coin-User-Defined-Algorithm](https://github.com/Momonan0412/CS345/blob/main/DIP%20Coin/DIP%20Coin/Algorithm.cs).
